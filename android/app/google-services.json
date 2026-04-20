@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8625582392",
+    "project_id": "agro-pass",
+    "storage_bucket": "agro-pass.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8625582392:android:89e415490f0077b07d51cd",
+        "android_client_info": {
+          "package_name": "com.agropass.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDnGlxioQ9Go54K5Uyrkx8MWU6Ms3--XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

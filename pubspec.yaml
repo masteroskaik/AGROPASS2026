@@ -1,0 +1,59 @@
+name: agro_pass
+description: Application de gestion des flux et contrôle d'accès - Agro 2026, Fianarantsoa Madagascar.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.2.1
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.1.1
+
+  # Caméra & Médias
+  camera: ^0.11.0
+  image_picker: ^1.1.2
+
+  # Stockage & Fichiers
+  path_provider: ^2.1.3
+
+  # Screenshot (pour sauvegarder le QR code en image)
+  screenshot: ^3.0.0
+
+  # Sécurité session (déconnexion automatique)
+  shared_preferences: ^2.2.3
+
+  # UI
+  cupertino_icons: ^1.0.8
+  permission_handler: ^12.0.1
+  image: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # Outil pour générer les icônes d'application
+  flutter_launcher_icons: ^0.13.1
+
+# Configuration de l'icône de l'application
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon/icon-agro.jpeg"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # Déclaration des assets
+  assets:
+    - assets/icon/icon-agro.png
